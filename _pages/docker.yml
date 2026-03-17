@@ -1,0 +1,14 @@
+services :
+
+  portfolio :
+    build : .
+      context : .
+      target: serve
+    ports :
+      - "4000:80"
+    restart : unless-stopped
+
+dev:
+  image:
+  working_
+    
